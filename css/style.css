@@ -11,7 +11,7 @@
 }
 
 .navbar{
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     height: 130px;
     width: 100%;
@@ -28,6 +28,7 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    cursor: pointer;
 }
 
 nav ul{
@@ -48,7 +49,130 @@ nav ul li a{
     font-size: 16px;
 }
 header{
+    position: relative;
     background-color: #222831 ;
-    height: 1400px;
+    height: 1024px;
+    width: 100%;
     background-size: cover;
+    border-bottom: 1px solid #EEEEEE;
+}
+.hero{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 200px;
+}
+.hero p{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 96px;
+    line-height: 96px;
+
+}
+.first-p{
+    color: #EEEEEE;
+
+}
+.color-p{
+    color: #00ADB5;
+}
+button{
+    padding: 10px 32px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 48px;
+}
+
+
+.img-first{
+    position: absolute;
+    height: 470px;
+    width: 400px;
+    top: 250px;
+    left: 780px;
+    
+}
+.img-first img{
+    width: 100%;
+    height: 100%;
+}
+
+.hire{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+
+}
+.cv{
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.frame-1{
+    position: relative;
+    height: 96px;
+    width: 96px;
+    top: 250px;
+    left: 415px;
+}
+.about{
+    height: 1024px;
+    width: 100%;
+    background-color: #222831 ;
+}
+.about{
+    display: flex;
+    
+}
+.img-2{
+
+    height: 470px;
+    width: 625px;
+    margin-top: 230px;
+    margin-right: 5px;
+    
+}
+.about-me{
+    margin-top: 260px;
+    margin-left: 96px;
+
+}
+.heading-1{
+    height: 96px;
+    width: 332px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    color: #EEEEEE;
+}
+.heading-1 span{
+    color: #00ADB5 ;
+}
+.para-1{
+    width: 389px;
+    height: 189px;
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* border: 1px solid white; */
+    overflow: hidden;
+    text-align: left;
+    
+}
+.para-1 p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    text-overflow: ellipsis;
 }
